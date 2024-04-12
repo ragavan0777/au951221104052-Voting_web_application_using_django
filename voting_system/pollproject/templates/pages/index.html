@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block content %}
+<bg-color: orange>
+<div class="card text-center" style="border-radius:10px; padding:30px; margin: 50px; border-color: black; border-size:10px"> 
+    <div class="card-body" > 
+       <h1> VOTING SYSTEM</h1>
+    <p>VOTING/POLL WEB APPLICATION USING DJANGO</p>
+    <a class="btn btn-dark" href = "{% url 'polls:index' %}"> 
+         POLLS</a>   
+    </div>
+</div>
+{% endblock %}
